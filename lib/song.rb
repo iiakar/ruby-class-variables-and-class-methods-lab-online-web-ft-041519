@@ -24,6 +24,7 @@ def initialize
   @@genres << Song.new  
 end 
 
+Song.genre_count => {"rap" => 5, "rock" => 1, "country" => 3} 
 
 
 
